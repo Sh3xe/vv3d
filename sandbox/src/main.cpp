@@ -1,9 +1,10 @@
-#include <sde/sde.hpp>
+#include <vv3d/vv3d.hpp>
 
-class App: public sd::Application
+class App: public vv::Application
 {
 public:
-	App()
+	App():
+		vv::Application()
 	{
 		
 	}
@@ -14,4 +15,4 @@ public:
 	}
 };
 
-SD_START(App);
+VV_START(App);

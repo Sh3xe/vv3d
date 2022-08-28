@@ -6,4 +6,4 @@ file( GLOB_RECURSE source_files "src/*.hpp" "src/*.cpp" )
 
 add_executable(sandbox ${source_files})
 
-target_link_libraries(sandbox PUBLIC sd_engine)
+target_link_libraries(sandbox PUBLIC vv3d_engine)
