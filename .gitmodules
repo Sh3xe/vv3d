@@ -1,0 +1,3 @@
+[submodule "vv_engine/external/glfw"]
+	path = vv_engine/external/glfw
+	url = https://github.com/glfw/glfw
